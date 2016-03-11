@@ -28,14 +28,14 @@ namespace StructureMapWebAPIDemo.Controllers
 
         [HttpGet]
         [Route("{id}")]
-        public HttpResponseMessage GetByID(int id)
+        public IHttpActionResult GetByID(int id)
         {
             var movie = _movieRepo.GetByID(id);
             if(movie == null)
             {
-                return Request.CreateResponse(HttpStatusCode.NotFound);
+                return NotFound();
             }
-            return Request.CreateResponse(movie);
+            return Ok(movie);
         }
     }
 }
