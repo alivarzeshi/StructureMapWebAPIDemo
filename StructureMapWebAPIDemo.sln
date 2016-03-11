@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructureMapWebAPIDemo", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructureMapWebAPIDemo.Lib", "StructureMapWebAPIDemo.Lib\StructureMapWebAPIDemo.Lib.csproj", "{1BDDB8C0-BF51-4673-95FA-0CC2655DA339}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructureMapWebAPIDemo.Tests", "StructureMapWebAPIDemo.Tests\StructureMapWebAPIDemo.Tests.csproj", "{57A8F352-4363-4370-B30E-6771F76BBC3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1BDDB8C0-BF51-4673-95FA-0CC2655DA339}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BDDB8C0-BF51-4673-95FA-0CC2655DA339}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BDDB8C0-BF51-4673-95FA-0CC2655DA339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57A8F352-4363-4370-B30E-6771F76BBC3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57A8F352-4363-4370-B30E-6771F76BBC3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57A8F352-4363-4370-B30E-6771F76BBC3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57A8F352-4363-4370-B30E-6771F76BBC3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

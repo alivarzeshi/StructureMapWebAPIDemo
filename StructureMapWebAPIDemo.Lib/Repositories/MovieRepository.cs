@@ -40,5 +40,15 @@ namespace StructureMapWebAPIDemo.Lib.Repositories
                 }
             };
         }
+
+        public Movie GetByID(int id)
+        {
+            var allMovies = GetAllMovies();
+            if (allMovies.Where(x => x.ID == id).Any())
+            {
+                return allMovies.First(x => x.ID == id);
+            }
+            else return null;
+        }
     }
 }

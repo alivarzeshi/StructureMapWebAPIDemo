@@ -10,5 +10,7 @@ namespace StructureMapWebAPIDemo.Lib.Interfaces
     public interface IMovieRepository
     {
         List<Movie> GetAllMovies();
+
+        Movie GetByID(int id);
     }
 }
